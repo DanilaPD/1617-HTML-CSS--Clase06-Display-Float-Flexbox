@@ -1,4 +1,4 @@
-# 1617-HTML-CSS--Clase06-Display-Float-Flexbox
+# 1617-HTML-CSS-Clase06-Display-Float-Flexbox
 
 Recursos útiles sobre Flexbox:
 
