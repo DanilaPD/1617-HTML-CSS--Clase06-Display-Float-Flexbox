@@ -1,0 +1,53 @@
+div {
+  padding: 2%;
+  margin: 1%;
+}
+
+p {
+  background-color: violet;
+  padding: 1%;
+  margin: 1%;
+}
+
+.flex1 {
+  background-color: wheat;
+  display: flex;
+}
+
+/* Cambiando el orden de los hijos: */
+.flex1 .miniFlex:first-of-type {
+  order: 1;
+  background-color: slateblue;
+  }
+
+/* Consejo: El order no lo usen. */
+.flex1 .miniFlex:last-of-type {
+  order: 0;
+  background-color: rgb(90,205, 115);
+  }
+
+p.miniFlex1 {
+  width: 10%;
+}
+
+/* El justify-content es cómo alinea los elementos con respecto al eje principal. */
+.flex2 {
+  background-color: rgb(255, 156, 74);
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.flex3 {
+  background-color: rgb(161, 77, 9);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.flex4 {
+  background-color: rgb(22, 161, 9);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Block or inline?</title>
+  </head>
+  <body>
+    <h1>¡Aprendiendo display!</h1>
+
+    <!-- ".soyBlock + tab" crearía un div con class="soyBlock". Se puede poner el nombre de cualquier etiqueta al principio y con *3 sería esa etiqueta más la cantidad de class que pongamos. -->
+
+    <!-- Block -->
+    <!-- Los dos son display: Block -->
+    <div class="soyBlock">
+      <p class="neutro">
+        Lorem ipsum dolor <span>sit amet consectetur</span> adipisicing elit.
+        Voluptates, hic.
+      </p>
+    </div>
+
+    <!-- Block ocupa el ancho completo mientras que inline ocupa el ancho de su contenido. -->
+
+    <!-- P inline -->
+    <div>
+      <p class="soyInline">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nemo
+        asperiores ad porro, quas, architecto similique veritatis ut ipsa rem
+        dolores aperiam voluptatum dolorem suscipit fugiat at, tempora soluta.
+        Corporis.
+      </p>
+    </div>
+
+    <!-- Div inline -->
+    <div class="soyInline">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nemo
+        asperiores ad porro, quas, architecto similique veritatis ut ipsa rem
+        dolores aperiam voluptatum dolorem suscipit fugiat at, tempora soluta.
+        Corporis.
+      </p>
+    </div>
+
+    <!-- Los dos inline: El div y el p -->
+    <div class="soyInline">
+      <p class="soyInline">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nemo
+        asperiores ad porro, quas, architecto similique veritatis ut ipsa rem
+        dolores aperiam voluptatum dolorem suscipit fugiat at, tempora soluta.
+        Corporis.
+      </p>
+    </div>
+
+    <!-- Los dos Inline Block -->
+    <div class="soyInlineBlock">
+      <p class="soyInlineBlock">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nemo
+        asperiores ad porro, quas, architecto similique veritatis ut ipsa rem
+        dolores aperiam voluptatum dolorem suscipit fugiat at, tempora soluta.
+        Corporis.
+      </p>
+    </div>
+
+    <!-- Padre Block, hijos: uno de cada uno. -->
+    <div class="soyBlock">
+      <p class="soyBlock">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nemo
+        asperiores ad porro, quas, architecto similique veritatis ut ipsa rem
+        dolores aperiam voluptatum dolorem suscipit fugiat at, tempora soluta.
+        Corporis.
+      </p>
+      <p class="soyInline">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nemo
+        asperiores ad porro, quas, architecto similique veritatis ut ipsa rem
+        dolores aperiam voluptatum dolorem suscipit fugiat at, tempora soluta.
+        Corporis.
+      </p>
+      <p class="soyInlineBlock">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nemo
+        asperiores ad porro, quas, architecto similique veritatis ut ipsa rem
+        dolores aperiam voluptatum dolorem suscipit fugiat at, tempora soluta.
+        Corporis.
+      </p>
+    </div>
+
+    <h2>Resumiendo:</h2>
+
+    <ul>
+      <li>Padre block, hijo block o Inline: Se ve bien.</li>
+      <li>Padre inline, hijo block o Inline: Se ve rarito.</li>
+      <li>
+        Inline block es un intermedio entre ambos porque permite usar el ancho y
+        el alto aunque se comporte como en línea.
+      </li>
+    </ul>
+  </body>
+</html>
