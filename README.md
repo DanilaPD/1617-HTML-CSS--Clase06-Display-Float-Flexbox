@@ -1,4 +1,4 @@
-# 9. 1617-Clase06-CSS-Display-Float-Flexbox
+# 9.-1617-Clase06-CSS-Display-Float-Flexbox
 
 Display (Inline/Block) + Float + Flexbox
 
