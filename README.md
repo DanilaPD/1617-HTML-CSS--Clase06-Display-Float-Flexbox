@@ -1,5 +1,7 @@
 # 1617-HTML-CSS-Clase06-Display-Float-Flexbox
 
+Display (Inline/Block) + Float + Flexbox
+
 Recursos útiles sobre Flexbox:
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
